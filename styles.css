@@ -34,27 +34,27 @@ img {
 }
 
 .navbar {
-  position: absolute;
-  top: 13px;
-  right: 0;
-  margin-right: 705px;
+  position: relative;
+  bottom: 37px;
+  left: 540px;
+  margin-right: 698px;
   z-index: 2;
 }
 
 .greenbox {
-  position: absolute;
+  position: relative;
   background-color: #34cb7c;
   width: 58px;
   height: 22px;
   border-radius: 7%;
-  top: 14px;
-  right: 701px;
+  bottom: 36px;
+  left: 686px;
   z-index: 1;
 }
 
 p {
   font-size: 8px;
-  color: #bec0C5;
+  color: #bec0c5;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
