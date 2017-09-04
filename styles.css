@@ -11,7 +11,7 @@ body {
   margin: 0 auto;
 }
 
-img {
+.box1 > img {
   float: left;
   height: 80px;
   padding: 10px;
@@ -52,4 +52,65 @@ b {
   font-size: 22px;
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.small {
+  max-width: 100%;
+  font-size: 18px;
+  color: #bec0c5;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 22px;
+  line-height: 1.5em;
+}
+
+.bold {
+  font-size: 42px;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.box2 {
+  float: left;
+  width: calc(50% - 15px);
+  padding: 280px 5px 5px 10px;
+}
+
+.box3 {
+  float: right;
+  width: calc(50% - 15px);
+  padding: 250px 5px 5px 10px;
+}
+
+.video {
+  position: relative;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.overlap {
+  position: relative;
+  width: 20%;
+  top: -200px;
+  left: 200px;
+}
+
+input[type=text] {
+  padding-right: 150px;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  margin-top: 30px;
+  border-radius: 3px;
+}
+
+input[type=submit] {
+  padding: 10px 50px;
+  background-color: #34cb7c;
+  border-radius: 3px;
+  font-size: 11px;
+  color: white;
+  margin-left: 10px;
+}
+
+::placeholder {
+  color: lightGrey;
 }
