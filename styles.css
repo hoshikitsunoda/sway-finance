@@ -132,9 +132,7 @@ input[type=submit] {
   margin: 0 auto;
 }
 
-.smallbox1,
-.smallbox2,
-.smallbox3 {
+.box {
   position: relative;
   float: left;
   width: calc((1000px / 3) - 80px);
@@ -147,9 +145,7 @@ input[type=submit] {
   box-shadow: 1px 1px 3px 1px #ecedf2;
 }
 
-.smallbox1 > p,
-.smallbox2 > p,
-.smallbox3 > p {
+.box > p {
   color: #6c7281;
   font-family: 'Source Sans Pro', sans-serif;
   margin-top: 20px;
